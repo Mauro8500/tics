@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardVendedorComponent } from './dashboard-vendedor.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { LoginvendedorComponent } from './loginvendedor/loginvendedor.component'
 /*import { EventosComponent } from './eventos/eventos.component';
 import { EmpresaComponent } from './empresa/empresa.component';
 import { RegistrosComponent } from './registros/registros.component';
@@ -15,6 +16,7 @@ import { MenuCompradorComponent } from './menu-comprador/menu-comprador.componen
 
 const routes: Routes = [
   { path: '', component: DashboardVendedorComponent, children: [
+    { path: 'loginvendedor', component: LoginvendedorComponent },
     { path: 'inicio', component: InicioComponent },
     /*{ path: 'eventos', component: EventosComponent },
     { path: 'empresa', component: EmpresaComponent },

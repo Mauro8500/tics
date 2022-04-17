@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { DashboardVendedorComponent } from './dashboard-vendedor.component';
 import { NavbarvenComponent } from './navbarven/navbarven.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { LoginvendedorComponent } from './loginvendedor/loginvendedor.component';
 
 /*import { EventosComponent } from './eventos/eventos.component';
 import { EmpresaComponent } from './empresa/empresa.component';
@@ -27,6 +28,7 @@ import { EventosVendedorComponent } from './eventos-vendedor/eventos-vendedor.co
     DashboardVendedorComponent,
     NavbarvenComponent,
     InicioComponent,
+    LoginvendedorComponent,
     
     /*EventosComponent,
     EmpresaComponent,
