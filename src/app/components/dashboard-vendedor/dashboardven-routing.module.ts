@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardVendedorComponent } from './dashboard-vendedor.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { LoginvendedorComponent } from './loginvendedor/loginvendedor.component'
-/*import { EventosComponent } from './eventos/eventos.component';
-import { EmpresaComponent } from './empresa/empresa.component';
+import { EventosvenComponent } from './eventosven/eventosven.component';
+/*import { EmpresaComponent } from './empresa/empresa.component';
 import { RegistrosComponent } from './registros/registros.component';
 import { FormVendedorComponent } from './form-vendedor/form-vendedor.component';
 import { FormEventoComponent } from './form-evento/form-evento.component';
@@ -18,8 +18,8 @@ const routes: Routes = [
   { path: '', component: DashboardVendedorComponent, children: [
     { path: 'loginvendedor', component: LoginvendedorComponent },
     { path: 'inicio', component: InicioComponent },
-    /*{ path: 'eventos', component: EventosComponent },
-    { path: 'empresa', component: EmpresaComponent },
+    { path: 'eventosven', component: EventosvenComponent },
+    /*{ path: 'empresa', component: EmpresaComponent },
     { path: 'registros', component: RegistrosComponent },
     { path: 'form-vendedor', component: FormVendedorComponent },
     { path: 'form-comprador', component: FormCompradorComponent },
