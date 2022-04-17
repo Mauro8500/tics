@@ -4,8 +4,8 @@ import { DashboardVendedorComponent } from './dashboard-vendedor.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { LoginvendedorComponent } from './loginvendedor/loginvendedor.component'
 import { EventosvenComponent } from './eventosven/eventosven.component';
-/*import { EmpresaComponent } from './empresa/empresa.component';
-import { RegistrosComponent } from './registros/registros.component';
+import { EmpresaComponent } from './empresa/empresa.component';
+/*import { RegistrosComponent } from './registros/registros.component';
 import { FormVendedorComponent } from './form-vendedor/form-vendedor.component';
 import { FormEventoComponent } from './form-evento/form-evento.component';
 import { FormEmpresaComponent } from './form-empresa/form-empresa.component';
@@ -19,8 +19,8 @@ const routes: Routes = [
     { path: 'loginvendedor', component: LoginvendedorComponent },
     { path: 'inicio', component: InicioComponent },
     { path: 'eventosven', component: EventosvenComponent },
-    /*{ path: 'empresa', component: EmpresaComponent },
-    { path: 'registros', component: RegistrosComponent },
+    { path: 'empresa', component: EmpresaComponent },
+    /*{ path: 'registros', component: RegistrosComponent },
     { path: 'form-vendedor', component: FormVendedorComponent },
     { path: 'form-comprador', component: FormCompradorComponent },
     { path: 'form-empresa', component: FormEmpresaComponent },

@@ -10,15 +10,11 @@ import { LogincompradorComponent } from './logincomprador/logincomprador.compone
 import { EventoscomComponent } from './eventoscom/eventoscom.component';
 import { MenuCompradorComponent } from './menu-comprador/menu-comprador.component';
 import { CompraticketComponent } from './compraticket/compraticket.component';
-/*import { EmpresaComponent } from './empresa/empresa.component';
-import { FormCompradorComponent } from './form-comprador/form-comprador.component';
-import { FormVendedorComponent } from './form-vendedor/form-vendedor.component';
-import { FormEventoComponent } from './form-evento/form-evento.component';
-import { FormEmpresaComponent } from './form-empresa/form-empresa.component';
-import { RegistrosComponent } from './registros/registros.component';
+import { EmpresaComponent } from './empresa/empresa.component';
+import { EventosCompradorComponent } from './eventos-comprador/eventos-comprador.component';
+/*
 
 import { PagotarjetaComponent } from './pagotarjeta/pagotarjeta.component';
-
 import { EventosCompradorComponent } from './eventos-comprador/eventos-comprador.component';
 import { EventosVendedorComponent } from './eventos-vendedor/eventos-vendedor.component';*/
 
@@ -33,8 +29,9 @@ import { EventosVendedorComponent } from './eventos-vendedor/eventos-vendedor.co
     EventoscomComponent,
     MenuCompradorComponent,
     CompraticketComponent,
-    /*EmpresaComponent,
-    FormCompradorComponent,
+    EmpresaComponent,
+    EventosCompradorComponent,
+    /*FormCompradorComponent,
     FormVendedorComponent,
     FormEventoComponent,
     FormEmpresaComponent,
