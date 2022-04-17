@@ -9,13 +9,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './components/shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MatNativeDateModule } from '@angular/material/core';
-import { LogincompradorComponent } from './components/dahsboard-comprador/logincomprador/logincomprador.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LogincompradorComponent,
   ],
   imports: [
     BrowserModule,
